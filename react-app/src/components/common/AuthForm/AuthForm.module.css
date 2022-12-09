@@ -1,0 +1,90 @@
+.formWrapper {
+    margin: 0 auto;
+    max-width: 624px;
+    width: 100%;
+    border: 1px solid #DADADA;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.topText {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+}
+
+.topText.resetPasswordText {
+    margin-bottom: 40px;
+}
+
+.forgotPassword {
+    margin-top: 16px;
+    font-size: 16px;
+    text-decoration: unset;
+    color: #313037;
+}
+
+.forgotPassword:hover {
+    color: #2231AA;
+}
+
+.formInput + .formInput {
+    margin-top: 40px;
+}
+
+.submitButton {
+    width: 100%;
+    margin-top: 48px;
+}
+
+.formWrapper label + label {
+    margin-top: 40px;
+}
+
+.bottomText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    color: #313037;
+    gap: 0.5ch;
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #2231AA;
+}
+
+.link:hover {
+    color: #5360CD;
+}
+
+.darkLink {
+    color: #5360CD;
+}
+
+.darkLink:hover {
+    color: #8D8E97;
+}
+
+.dark {
+    color: #FFFFFF;
+}
+
+.dark.forgotPassword:hover {
+    color: #5360CD;
+}

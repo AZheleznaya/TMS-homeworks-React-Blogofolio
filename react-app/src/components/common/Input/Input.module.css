@@ -1,0 +1,90 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    min-width: 545px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #313037;
+}
+
+.input {
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    font-weight: 400;
+    width: 100%;
+    border: 2px solid transparent;
+    color: #313037;
+}
+
+.input,
+.input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.input::placeholder {
+    color: #8D8E97;
+}
+
+.input:focus,
+.input:focus-visible {
+    border: 2px solid #DADADA;
+    outline: unset;
+}
+
+.error {
+    border: 2px solid #FD3419;
+}
+
+.error,
+.errorMessage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.errorMessage {
+    color: #FD3419;
+    position: absolute;
+    bottom: -36px;
+}
+
+.reset {
+    background: #F3F3F3;
+    right: 4px;
+    top: 35%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.dark {
+    color: #FFFFFF;
+}
+
+
+
+
+
+

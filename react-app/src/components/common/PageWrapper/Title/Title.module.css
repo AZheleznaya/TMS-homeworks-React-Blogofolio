@@ -1,0 +1,12 @@
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 32px 0 47px;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+}
+
+.dark {
+    color: #FFFFFF;
+}

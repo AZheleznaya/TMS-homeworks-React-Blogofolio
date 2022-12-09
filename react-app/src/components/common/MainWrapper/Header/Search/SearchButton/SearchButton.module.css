@@ -1,0 +1,15 @@
+.searchButton {
+    width: 84px;
+    height: 84px;
+    border-left: 1px solid #5360CD;
+    border-right: 1px solid #5360CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.searchButtonIcon {
+    width: 35%;
+    height: 35%;
+}

@@ -1,0 +1,50 @@
+.searchItemContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 41px;
+    margin-bottom: 39.5px;
+}
+
+.searchItemWrapper {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 46.5px;
+}
+
+.searchItemImage {
+    display: block;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.searchItemDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+    color: #8D8E97;
+}
+
+.searchItemTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #313037;
+    cursor: pointer;
+}
+
+.searchItemTitle:hover {
+    color: #5360CD;
+}
+
+.dark {
+    color: #FFFFFF;
+}

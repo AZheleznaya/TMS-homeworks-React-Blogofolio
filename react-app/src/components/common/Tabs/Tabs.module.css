@@ -1,0 +1,8 @@
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 47px 0 64px;
+    width: 100%;
+    border-bottom: 2px solid #DADADA;
+}

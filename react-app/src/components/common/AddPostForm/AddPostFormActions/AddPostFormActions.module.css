@@ -1,0 +1,15 @@
+.actionsWrapper {
+    max-width: 1120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-top: 18px;
+}
+
+.actionsWrapper button:first-child {
+    margin-right: 57%;
+    background: unset;
+    color: #FD3419;
+}

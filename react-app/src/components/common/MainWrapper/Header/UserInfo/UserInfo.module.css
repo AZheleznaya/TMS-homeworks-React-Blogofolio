@@ -1,0 +1,27 @@
+.userInfoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 17px 30px 18px;
+    color: #FFFFFF;
+    background: #2231AA;
+    white-space: nowrap;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: #2231AA;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.linkNoneDecoration {
+    text-decoration: none;
+}

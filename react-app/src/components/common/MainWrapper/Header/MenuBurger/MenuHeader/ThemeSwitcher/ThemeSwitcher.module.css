@@ -1,0 +1,32 @@
+.themeSwitcherWrapper {
+    display: flex;
+    align-items: center;
+    width: 236px;
+    border-top: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+}
+
+.themeItemWrapper {
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    padding: 30px 0;
+    background: #FFFFFF;
+    border: none;
+}
+
+.themeItemWrapper:hover{
+    cursor: pointer;
+}
+
+.themeItemWrapper + .themeItemWrapper {
+    border-left: 1px solid #E8E8E8;
+}
+
+.svg {
+    fill: #E8E8E8;
+}
+
+.svgActive {
+    fill: #000000;
+}

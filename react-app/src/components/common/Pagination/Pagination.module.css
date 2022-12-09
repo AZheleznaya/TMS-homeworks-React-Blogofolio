@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.paginationPages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.pagination span,
+.pagination button {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.arrowPrev,
+.arrowNext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    background: unset;
+    border: unset;
+}
+
+.dark {
+    color: #FFFFFF;
+}
+
+.darkGrey {
+    color: #8D8E97;
+}
+
+.active {
+    color: #5360CD;
+}

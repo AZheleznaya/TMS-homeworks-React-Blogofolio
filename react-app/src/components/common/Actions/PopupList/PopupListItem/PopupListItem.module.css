@@ -1,0 +1,32 @@
+.popupListItem {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 20px 100px;
+    color: #313037;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.popupListItem:not(:last-child) {
+    border-bottom: 1px solid #DADADA;
+}
+
+.popupListItem:hover {
+    color: #2231AA;
+}
+
+.dark {
+    color: #FFFFFF;
+}
+
+.dark:hover {
+    color: #5360CD;
+}
+
+.dark:not(:last-child) {
+    border-bottom: 1px solid #313037;
+}

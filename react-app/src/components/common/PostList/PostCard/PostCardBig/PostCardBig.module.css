@@ -1,0 +1,68 @@
+.bigCard {
+    max-width: 736px;
+    width: 100%;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 47px;
+}
+
+.bigCardWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bigCardDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+}
+
+.bigCardTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #313037;
+    margin: 8px 32px 24px 0;
+    text-align: left;
+    cursor: pointer;
+    max-width: 448px;
+    height: 132px;
+}
+
+.bigCardTitle:hover {
+    color: #2231AA;
+}
+
+.bigCardDescription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8D8E97;
+    max-width: 448px;
+    height: 168px;
+    margin-bottom: 32.5px;
+    overflow: hidden;
+}
+
+.bigImage {
+    display: block;
+    width: 256px;
+    height: 244px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.darkTitle {
+    color: #FFFFFF;
+}
+
+.darkTitle:hover {
+    color: #5360CD;
+}

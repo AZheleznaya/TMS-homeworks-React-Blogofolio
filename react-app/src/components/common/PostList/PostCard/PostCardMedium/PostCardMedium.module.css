@@ -1,0 +1,52 @@
+.mediumCardWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 352px;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 44px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.mediumImage {
+    width: 352px;
+    height: 246px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.mediumCardDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    padding: 24px 0 8px 0;
+}
+
+.mediumCardTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #313037;
+    margin-bottom: 29px;
+    max-width: 352px;
+    height: 56px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.mediumCardTitle:hover {
+    color: #2231AA;
+}
+
+.darkTitle {
+    color: #FFFFFF;
+}
+
+.darkTitle:hover {
+    color: #5360CD;
+}

@@ -1,0 +1,42 @@
+.contentPostWrapper {
+    box-sizing: border-box;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 72px;
+}
+
+.contentPostTitle {
+    font-family: 'Inter';
+    margin: 0;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #313037;
+    padding: 32px 0 48px;
+}
+
+.contentPostImage {
+    width:100%;
+    max-height:518px;
+    padding: 0 64px;
+    box-sizing: border-box;
+}
+
+.contentPostDescription {
+    margin: 0 auto;
+    max-width: 920px;
+}
+
+.contentPostText {
+    font-family: 'Inter';
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #313037;
+    padding: 48px 0;
+    white-space: pre-wrap;
+}
+
+.dark {
+    color: #FFFFFF;
+}

@@ -1,0 +1,13 @@
+.menuBurgerWrapper {
+    position: relative;
+}
+
+.menuBurger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 84px;
+    border-right: 1px solid #5360CD;
+    cursor: pointer;
+}

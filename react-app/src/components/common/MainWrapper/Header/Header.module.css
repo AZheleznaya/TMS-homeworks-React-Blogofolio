@@ -1,0 +1,12 @@
+.headerWrapper {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 84px;
+    background: #2231AA;
+    border-left: 1px solid #5360CD;
+    border-right: 1px solid #5360CD;;
+    z-index: 2;
+}

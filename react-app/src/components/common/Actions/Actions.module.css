@@ -1,0 +1,98 @@
+.actionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 24px;
+}
+
+.actionsThumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.likeCounter,
+.dislikeCounter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+}
+
+.likeField,
+.dislikeField {
+    width: 12px;
+}
+
+.moreActions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dark {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.moreIcon {
+    position: relative;
+}
+
+.likeContent,
+.dislikeContent {
+    width: 88px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    background: #E8E8E8;
+    color: #313037;
+}
+
+.bookmarkContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    height: 56px;
+    border: none;
+    background: #E8E8E8;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.bookmarkContent > img {
+    padding-right: 14px;
+}
+
+.likeContentActive,
+.bookmarkContentActive {
+    background: #5360CD;
+    color: #FFFFFF;
+}
+
+.dislikeContentActive {
+    background: #FD3419;
+    color: #E8E8E8;
+}
+
+.likeContent:hover,
+.likeContentActive:hover,
+.bookmarkContent:hover,
+.bookmarkContentActive:hover {
+    background: #5360CD;
+}
+
+.dislikeContent:hover,
+.dislikeContentActive:hover {
+    background: #FD3419;
+}
+

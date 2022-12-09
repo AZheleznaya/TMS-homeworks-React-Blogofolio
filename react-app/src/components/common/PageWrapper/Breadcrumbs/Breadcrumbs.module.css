@@ -1,0 +1,37 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.divider {
+    display: block;
+    width: 2px;
+    height: 24px;
+    background: #8D8E97;
+}
+
+.home,
+.authLink {
+    text-decoration: unset;
+    color: #313037;
+}
+
+.home:hover,
+.authLink:hover {
+    color: #2231AA;
+}
+
+.current {
+    color: #8D8E97;
+}
+
+.dark {
+    color: #FFFFFF;
+}
+
+.dark:hover {
+    color: rgba(83, 96, 205, 1);
+    cursor: pointer;
+}

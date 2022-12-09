@@ -1,0 +1,77 @@
+.textareaWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textareaWrapper + .textareaWrapper {
+    margin-top: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+    cursor: pointer;
+    color: #313037;
+}
+
+.textarea {
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    font-weight: 400;
+    width: 100%;
+    border: 2px solid transparent;
+    color: #313037;
+}
+
+.textarea,
+.textarea::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.textarea::placeholder {
+    color: #8D8E97;
+}
+
+.textarea:focus,
+.textarea:focus-visible {
+    border: 2px solid #DADADA;
+    outline: unset;
+}
+
+.error {
+    border: 2px solid #FD3419;
+}
+
+.error,
+.errorMessage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.errorMessage {
+    color: #FD3419;
+    padding-top: 16px;
+}
+
+.dark {
+    color: #FFFFFF;
+}

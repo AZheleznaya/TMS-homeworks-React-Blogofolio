@@ -1,0 +1,12 @@
+.menuHeaderWrapper {
+    position: absolute;
+    top: 84px;
+    left: -1px;
+    width: 236px;
+    background: #FFFFFF;
+    height: calc(100vh - 84px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid #5360CD;
+}

@@ -1,0 +1,41 @@
+.lazyLoaderWrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.lazyLoader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px dashed #2231AA;
+    animation: rotate 10s infinite linear;
+}
+
+.lazyLoaderDark {
+    border: 3px dashed #F3F3F3;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.lazyLoaderText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2231AA;
+}
+
+.lazyLoaderTextDark {
+    color: #F3F3F3;
+}

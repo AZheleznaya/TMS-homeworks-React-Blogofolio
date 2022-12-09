@@ -1,0 +1,12 @@
+.popupList {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+
+.dark {
+    background: #8D8E97;
+    border: 1px solid #8D8E97;
+}
